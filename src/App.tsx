@@ -182,7 +182,7 @@ const Hero = () => {
                  <div className="space-y-1.5 min-h-[220px]">
                     <div className="flex gap-4"><span className="text-slate-600">01</span><span className="text-blue-400">#include &lt;cizen_vision.h&gt;</span></div>
                     <div className="flex gap-4"><span className="text-slate-600">02</span><span className="text-slate-500">// Device initialization...</span></div>
-                    <div className="flex gap-4"><span className="text-slate-600">03</span><span className="text-sky-400">auto</span> device = cizen::grabber::init(<span className="text-amber-400">"MIG-S6"</span>);</div>
+                    <div className="flex gap-4"><span className="text-slate-600">03</span><span className="text-indigo-400">auto</span> device = cizen::grabber::init(<span className="text-amber-400">"MIG-S6"</span>);</div>
                     <div className="flex gap-4"><span className="text-slate-600">04</span><span className="text-slate-500">if</span> (!device.ready()) <span className="text-slate-500">throw</span> err;</div>
                     <div className="flex gap-4"><span className="text-slate-600">05</span></div>
                     <div className="flex gap-4"><span className="text-slate-600">06</span><span className="text-green-400">STATUS_OK: GPU BUS engaged (40Gbps)</span></div>
