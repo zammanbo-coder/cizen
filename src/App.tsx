@@ -37,7 +37,7 @@ const Navbar = () => {
   const navLinks = [
     { name: '제품소개', href: '#tech' },
     { name: '기술지원', href: '#sdk' },
-    { name: '다운로드', href: '#inspection' },
+    { name: '회사소개', href: '#inspection' },
     { name: '고객문의', href: '#ai' },
   ];
 
@@ -149,13 +149,13 @@ const Hero = () => {
           </h1>
           <p className="text-slate-400 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl font-light">
             FPGA 기반 프레임 그래버 개발부터 ISO 12233 표준 알고리즘까지,<br className="hidden md:block" /> 
-            Cizen Tech는 비전 시스템의 정점을 정의합니다.
+            시젠테크는 비전 시스템의 정점을 정의합니다.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-6">
             <button className="group relative px-10 py-5 bg-blue-600 text-white font-bold transition-all rounded-xs overflow-hidden shadow-2xl shadow-blue-500/20">
                <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500" />
                <span className="relative flex items-center gap-2 text-sm tracking-widest uppercase">
-                  솔루션 데이터셋
+                  제품 보기
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                </span>
             </button>
@@ -347,7 +347,7 @@ const ExperienceSection = () => {
             <h2 className="text-5xl md:text-6xl font-display font-black text-white tracking-tighter italic">실현된 기술력.</h2>
           </div>
           <div className="mt-8 md:mt-0 text-slate-500 font-medium max-w-md md:text-right">
-             다수의 양산 라인에서 증명된 Cizen Tech만의 하드웨어 및 소프트웨어 통합 노하우를 확인하세요.
+             다수의 양산 라인에서 증명된 CIZENTECH만의 하드웨어 및 소프트웨어 통합 노하우를 확인하세요.
           </div>
         </div>
         
@@ -392,7 +392,7 @@ const TechnologyDeepDive = () => {
           <span className="font-mono text-blue-600 font-bold mb-6 block tracking-[0.4em] uppercase text-xs">A.I Core architecture</span>
           <h2 className="text-6xl md:text-7xl font-display font-black text-slate-900 mb-10 tracking-tight italic">SYNERGY.</h2>
           <p className="text-slate-500 text-xl mb-12 leading-relaxed font-medium">
-            Cizen Tech는 단순한 소프트웨어 개발을 넘어, 하드웨어의 한계를 뛰어넘는 최적화된 알고리즘을 지향합니다. GPU 병렬 가속과 딥러닝 결함 검출의 결합은 검사 효율을 최대 20배까지 향상시킵니다.
+            CIZENTECH는 단순한 소프트웨어 개발을 넘어, 하드웨어의 한계를 뛰어넘는 최적화된 알고리즘을 지향합니다. GPU 병렬 가속과 딥러닝 결함 검출의 결합은 검사 효율을 최대 20배까지 향상시킵니다.
           </p>
           
           <div className="grid grid-cols-2 gap-10 mb-12">
@@ -527,8 +527,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-6 md:gap-16 items-center opacity-50">
-        <span>© 2024 CIZEN TECH. ALL RIGHTS RESERVED.</span>
-        <span>경기도 안양시 동안구 시민대로</span>
+        <span>© 2024 CIZENTECH. ALL RIGHTS RESERVED.</span>
+        <span>경기도 안양시 동안구 </span>
         <div className="flex gap-6">
            <span className="flex items-center gap-2">
               <div className="w-1 h-1 bg-blue-500 rounded-full"></div> 
@@ -569,7 +569,7 @@ const CompanyProfile = () => {
             </div>
             <div className="flex">
               <span className="w-40 text-slate-400 font-mono font-bold text-[10px] uppercase tracking-widest pt-1">Location</span>
-              <span className="text-slate-900 font-semibold text-sm">경기도 군포시 산본로324번길 8, 507호</span>
+              <span className="text-slate-900 font-semibold text-sm">경기도 안양시 동안구 </span>
             </div>
           </div>
         </div>
@@ -583,7 +583,7 @@ const CompanyProfile = () => {
                  <div className="w-12 h-[2px] bg-blue-600" />
                  <div className="flex flex-col">
                     <span className="text-slate-900 font-black text-sm uppercase tracking-widest">Yang Sang Kyu</span>
-                    <span className="text-[10px] font-mono text-slate-400 font-bold uppercase tracking-widest">CEO, Cizen Tech</span>
+                    <span className="text-[10px] font-mono text-slate-400 font-bold uppercase tracking-widest">CEO, CIZENTECH</span>
                  </div>
               </div>
            </div>
