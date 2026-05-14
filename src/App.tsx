@@ -344,7 +344,7 @@ const ExperienceSection = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
           <div>
             <span className="text-blue-500 font-mono font-bold block mb-4 tracking-[0.4em] uppercase text-xs">Production machines</span>
-            <h2 className="text-5xl md:text-6xl font-display font-black text-white tracking-tighter italic">실현된 기술력.</h2>
+            <h2 className="text-5xl md:text-6xl font-display font-black text-white tracking-tighter italic">검증된 기술력</h2>
           </div>
           <div className="mt-8 md:mt-0 text-slate-500 font-medium max-w-md md:text-right">
              다수의 양산 라인에서 증명된 CIZENTECH만의 하드웨어 및 소프트웨어 통합 노하우를 확인하세요.
